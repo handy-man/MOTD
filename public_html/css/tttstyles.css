@@ -53,9 +53,9 @@ div#site_title
 	color: white;
 	text-transform: uppercase;
 	font-weight: bold;
-	font-size: 21px;
-	line-height: 15px;
-	margin: 0 auto 0 20px;
+	font-size: 42px;
+	line-height: 30px;
+	margin: 0 auto 0 4px;
 }
 
 div#dynamic_content
@@ -75,7 +75,8 @@ div#dynamic_content
 	/* OTHER */
 	padding: 10px;
 	background-color:rgba(0,0,0,0.3);
-	width: 45%;
+	width: 24%;
+	margin-right: 20px;
 	height: 200px;
 }
 
@@ -96,9 +97,34 @@ div#primary_content
 	/* OTHER */
 	padding: 10px;
 	background-color:rgba(0,0,0,0.3);
-	width: 45%;
+	width: 66%;
 	height: 200px;
 
+}
+
+div#status_content
+{
+    display: block;
+	color: white;
+	text-transform: uppercase;
+	/* ROUNDED CORNERS */
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+	/* DROP SHADOW */
+	-moz-box-shadow: 0px 0px 14px #000000;
+	-webkit-box-shadow: 0px 0px 14px #000000;
+	box-shadow: 0px 0px 14px #000000;
+	/* OTHER */
+	padding: 10px;
+	background-color:rgba(0,0,0,0.3);
+	width: 95%;
+	height: 10px;
+	margin-top: 20px;
+}
+
+.in_status{
+	margin: 0 42%;
 }
 
 .in_title{
@@ -108,10 +134,18 @@ div#primary_content
 	color: white;
 	text-transform: uppercase;
 	width: 100%;
-	margin: 0 45%;
-	background-color:rgba(0,0,0,0.3);
+	font-family: "fantasy";
+	padding: 5px;
+}
+.in_content{
+	font-size: 14px;
+	display: block;
+	color: white;
+	text-transform: lowercase;
+	width: 100%;
+	font-family: "arial";
+}
 
-	}
 
 /* Addition classes*/
 .numbers
