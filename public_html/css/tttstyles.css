@@ -1,0 +1,138 @@
+/* GLOBAL */
+body
+{
+	font-family: "Arial", "Helvetica", "Helvetica Neue";
+	font-size: 14px;
+	color: #333;
+	text-align: left;
+	background-image: url('../images/bg2.jpg');
+	margin: 20px 0 0 0;
+}
+body a
+{
+	color: #ca4a0f;
+}
+body a:hover
+{
+	color: #d50b0b;
+}
+h1
+{
+	font-size: 30px;
+	line-height: 5px;
+	color: black;
+}
+h2
+{
+	font-size: 24px;
+	line-height: 10px;
+	color: black;
+}
+
+
+/*div#menu ul a
+{
+	text-decoration: none;
+	color: black;
+}
+div#menu ul a:hover
+{
+	text-decoration: none;
+	color: black;
+}
+*/
+/* LAYOUT */
+div#page
+{
+	margin: 10% auto 0 auto;
+	width: 946px;
+	opacity: 0.85;
+}
+div#site_title
+{
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 21px;
+	line-height: 15px;
+	margin: 0 auto 0 20px;
+}
+
+div#dynamic_content
+{
+    display: inline-block;
+	vertical-align: middle;
+	color: white;
+	text-transform: uppercase;
+	/* ROUNDED CORNERS */
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+	/* DROP SHADOW */
+	-moz-box-shadow: 0px 0px 14px #000000;
+	-webkit-box-shadow: 0px 0px 14px #000000;
+	box-shadow: 0px 0px 14px #000000;
+	/* OTHER */
+	padding: 10px;
+	background-color:rgba(0,0,0,0.3);
+	width: 45%;
+	height: 200px;
+}
+
+div#primary_content
+{
+    display: inline-block;
+	vertical-align: middle;
+	color: white;
+	text-transform: uppercase;
+	/* ROUNDED CORNERS */
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+	/* DROP SHADOW */
+	-moz-box-shadow: 0px 0px 14px #000000;
+	-webkit-box-shadow: 0px 0px 14px #000000;
+	box-shadow: 0px 0px 14px #000000;
+	/* OTHER */
+	padding: 10px;
+	background-color:rgba(0,0,0,0.3);
+	width: 45%;
+	height: 200px;
+
+}
+
+.in_title{
+	font-weight: bold;
+	font-size: 18px;
+	display: block;
+	color: white;
+	text-transform: uppercase;
+	width: 100%;
+	margin: 0 45%;
+	background-color:rgba(0,0,0,0.3);
+
+	}
+
+/* Addition classes*/
+.numbers
+{
+
+	font-weight: bold;
+	font-size: 18px;
+
+}
+.header1
+{
+
+	font-size: 28px;
+	font-weight: bold;
+	
+
+}
+
+
+/* New stuff */
+
+.inline {
+        
+}
