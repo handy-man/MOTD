@@ -145,6 +145,16 @@ div#status_content
 	width: 100%;
 	font-family: "arial";
 }
+.in_content_map{
+	display: inline-block;
+	font-size: 14px;
+	display: block;
+	color: white;
+	text-transform: lowercase;
+	width: 100%;
+	font-family: "arial";
+}
+
 
 
 /* Addition classes*/

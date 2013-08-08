@@ -4,7 +4,34 @@
 <head>
 	<title>Handy_man's MOTD</title>
 	<link href="css/tttstyles.css" media="screen" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 </head>
+	<script type="text/javascript">
+	function GameDetails( servername, serverurl, mapname, maxplayers, steamid, gamemode ) {
+		$("#primary_content").append("serverurl: " + serverurl + "<br>");
+		$("#primary_content").append("servername: " + servername + "<br>");
+		$("#primary_content").append("maxplayers: " + maxplayers + "<br>");
+		$("#primary_content").append("steamid: " + steamid + "<br>");
+		$("#primary_content").append("gamemode: " + gamemode + "<br>");
+		$(".in_content_map").append("" + mapname + "");
+	}
+	
+	function DownloadingFile( filename ) {
+		$("#primary_content").append("DownloadingFile: " + filename + "<br>");
+	}
+
+	function SetStatusChanged( status ) {
+		$("#primary_content").append("SetStatusChanged: " + status + "<br>");
+	}
+
+	function SetFilesNeeded( iDownloading ) {
+		$("#primary_content").append("SetFilesNeeded: " + iDownloading + "<br>");
+	}
+
+	function SetFilesTotal( iFileCount ) {
+		$("#primary_content").append("SetFilesTotal: " + iFileCount + "<br>");
+	}
+	</script>
 
 <body>
 	<div id="page">
@@ -19,21 +46,12 @@
 		<span class="in_title">server ip:</span>
 		<span class="in_content">ttt.sngaming.org</span>
 		<span class="in_title">Current map:</span>
-		<span class="in_content">dm_richland</span>
+		<span class="in_content_map"></span>
 		</div>
 		<div id="primary_content">
-		Rule #1 - No Something something<br> 
-		Rule #2 - No Something else<br>
-		Rule #3 - No testing<br>
-			Rule #1 - No Something something<br> 
-		Rule #2 - No Something else<br>
-		Rule #3 - No testing<br>
-			Rule #1 - No Something something<br> 
-		Rule #2 - No Something else<br>
-		Rule #3 - No testing<br>
-			Rule #1 - No Something something<br> 
-		Rule #2 - No Something else<br>
-		Rule #3 - No testing<br>
+	
+
+
 		</div>
 		
 		<div id="status_content">
