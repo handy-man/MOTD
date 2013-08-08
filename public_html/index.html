@@ -8,28 +8,28 @@
 </head>
 	<script type="text/javascript">
 	function GameDetails( servername, serverurl, mapname, maxplayers, steamid, gamemode ) {
-		$("#primary_content").append("serverurl: " + serverurl + "<br>");
-		$("#primary_content").append("servername: " + servername + "<br>");
-		$("#primary_content").append("maxplayers: " + maxplayers + "<br>");
-		$("#primary_content").append("steamid: " + steamid + "<br>");
-		$("#primary_content").append("gamemode: " + gamemode + "<br>");
+		$("#dont_want").append("" + serverurl + "");
+		$(".in_content_sn").append("" + servername + "");
+		$("#dont_want").append("" + maxplayers + "");
+		$("#dont_want").append("" + steamid + "");
+		$(".in_content_gm").append("" + gamemode + "");
 		$(".in_content_map").append("" + mapname + "");
 	}
 	
 	function DownloadingFile( filename ) {
-		$("#primary_content").append("DownloadingFile: " + filename + "<br>");
+		$("#dont_want").append("DownloadingFile: " + filename + "<br>");
 	}
 
 	function SetStatusChanged( status ) {
-		$("#primary_content").append("SetStatusChanged: " + status + "<br>");
+		$(".in_status").append("" + status + "");
 	}
 
 	function SetFilesNeeded( iDownloading ) {
-		$("#primary_content").append("SetFilesNeeded: " + iDownloading + "<br>");
+		$("#dont_want").append("SetFilesNeeded: " + iDownloading + "<br>");
 	}
 
 	function SetFilesTotal( iFileCount ) {
-		$("#primary_content").append("SetFilesTotal: " + iFileCount + "<br>");
+		$("#dont_want").append("SetFilesTotal: " + iFileCount + "<br>");
 	}
 	</script>
 
@@ -40,22 +40,20 @@
 		</div>
 		<div id="dynamic_content">
 		<span class="in_title">Server name:</span>
-		<span class="in_content">Sngaming.org | TTT #1 </span>
+		<span class="in_content_sn"></span>
 		<span class="in_title">Gamemode:</span>
-		<span class="in_content">Trouble in Terrorist Town</span>
+		<span class="in_content_gm"></span>
 		<span class="in_title">server ip:</span>
 		<span class="in_content">ttt.sngaming.org</span>
 		<span class="in_title">Current map:</span>
 		<span class="in_content_map"></span>
 		</div>
 		<div id="primary_content">
-	
-
-
+		Welcome to a test example webpage of a loadingurl, we can insert some rules here or maybe a welcome message.
 		</div>
 		
 		<div id="status_content">
-		<span class="in_status">Current Status</span>
+		<span class="in_status"></span>
 		</div>
 	</div>
 

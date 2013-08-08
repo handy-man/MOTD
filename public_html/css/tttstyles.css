@@ -45,7 +45,7 @@ div#menu ul a:hover
 div#page
 {
 	margin: 10% auto 0 auto;
-	width: 946px;
+	width: 1024px;
 	opacity: 0.85;
 }
 div#site_title
@@ -54,7 +54,7 @@ div#site_title
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 42px;
-	line-height: 30px;
+	line-height: 35px;
 	margin: 0 auto 0 4px;
 }
 
@@ -75,7 +75,7 @@ div#dynamic_content
 	/* OTHER */
 	padding: 10px;
 	background-color:rgba(0,0,0,0.3);
-	width: 24%;
+	width: 27%;
 	margin-right: 20px;
 	height: 200px;
 }
@@ -97,7 +97,7 @@ div#primary_content
 	/* OTHER */
 	padding: 10px;
 	background-color:rgba(0,0,0,0.3);
-	width: 66%;
+	width: 63%;
 	height: 200px;
 
 }
@@ -124,7 +124,7 @@ div#status_content
 }
 
 .in_status{
-	margin: 0 42%;
+	margin: 0 38%;
 }
 
 .in_title{
@@ -154,29 +154,21 @@ div#status_content
 	width: 100%;
 	font-family: "arial";
 }
-
-
-
-/* Addition classes*/
-.numbers
-{
-
-	font-weight: bold;
-	font-size: 18px;
-
+.in_content_gm{
+	display: inline-block;
+	font-size: 14px;
+	display: block;
+	color: white;
+	text-transform: lowercase;
+	width: 100%;
+	font-family: "arial";
 }
-.header1
-{
-
-	font-size: 28px;
-	font-weight: bold;
-	
-
-}
-
-
-/* New stuff */
-
-.inline {
-        
+.in_content_sn{
+	display: inline-block;
+	font-size: 14px;
+	display: block;
+	color: white;
+	text-transform: lowercase;
+	width: 100%;
+	font-family: "arial";
 }
