@@ -3,7 +3,7 @@
 
 	<head>
 		<title>Simple Loadingurl</title>
-		<link href="css/styles.php" media="screen" rel="stylesheet" type="text/css" />
+		<link href="styles.php" media="screen" rel="stylesheet" type="text/css" />
 		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	</head>
 	<script type="text/javascript">
