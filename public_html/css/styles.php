@@ -105,9 +105,9 @@ div#dynamic_content
 	-webkit-border-radius: 12px;
 	border-radius: 12px;
 	/* DROP SHADOW */
-	-moz-box-shadow: 0px 0px 14px <?php echo $header_bot_gradient;?>;
-	-webkit-box-shadow: 0px 0px 14px <?php echo $header_bot_gradient;?>;
-	box-shadow: 0px 0px 14px <?php echo $header_bot_gradient;?>;
+	-moz-box-shadow: 0px 0px 14px <?php echo $drop_colour;?>;
+	-webkit-box-shadow: 0px 0px 14px <?php echo $drop_colour;?>;
+	box-shadow: 0px 0px 14px <?php echo $drop_colour;?>;
 	/* OTHER */
 	padding: 10px;
 	background-color:rgba(0,0,0,0.3);
@@ -126,9 +126,9 @@ div#primary_content
 	-webkit-border-radius: 12px;
 	border-radius: 12px;
 	/* DROP SHADOW */
-	-moz-box-shadow: 0px 0px 14px <?php echo $header_bot_gradient;?>;
-	-webkit-box-shadow: 0px 0px 14px <?php echo $header_bot_gradient;?>;
-	box-shadow: 0px 0px 14px <?php echo $header_bot_gradient;?>;
+	-moz-box-shadow: 0px 0px 14px <?php echo $drop_colour;?>;
+	-webkit-box-shadow: 0px 0px 14px <?php echo $drop_colour;?>;
+	box-shadow: 0px 0px 14px <?php echo $drop_colour;?>;
 	/* OTHER */
 	padding: 10px;
 	background-color:rgba(0,0,0,0.3);
@@ -147,9 +147,9 @@ div#secondary_content
 	-webkit-border-radius: 12px;
 	border-radius: 12px;
 	/* DROP SHADOW */
-	-moz-box-shadow: 0px 0px 14px <?php echo $header_bot_gradient;?>;
-	-webkit-box-shadow: 0px 0px 14px <?php echo $header_bot_gradient;?>;
-	box-shadow: 0px 0px 14px <?php echo $header_bot_gradient;?>;
+	-moz-box-shadow: 0px 0px 14px <?php echo $drop_colour;?>;
+	-webkit-box-shadow: 0px 0px 14px <?php echo $drop_colour;?>;
+	box-shadow: 0px 0px 14px <?php echo $drop_colour;?>;
 	/* OTHER */
 	padding: 10px;
 	background-color:rgba(0,0,0,0.3);
@@ -168,9 +168,9 @@ div#avatar_content
 	-webkit-border-radius: 12px;
 	border-radius: 12px;
 	/* DROP SHADOW */
-	-moz-box-shadow: 0px 0px 14px <?php echo $header_bot_gradient;?>;
-	-webkit-box-shadow: 0px 0px 14px <?php echo $header_bot_gradient;?>;
-	box-shadow: 0px 0px 14px <?php echo $header_bot_gradient;?>;
+	-moz-box-shadow: 0px 0px 14px <?php echo $drop_colour;?>;
+	-webkit-box-shadow: 0px 0px 14px <?php echo $drop_colour;?>;
+	box-shadow: 0px 0px 14px <?php echo $drop_colour;?>;
 	/* OTHER */
 	padding: 10px;
 	background-color:rgba(0,0,0,0.3);
@@ -189,9 +189,9 @@ div#status_content
 	-webkit-border-radius: 12px;
 	border-radius: 12px;
 	/* DROP SHADOW */
-	-moz-box-shadow: 0px 0px 14px <?php echo $header_bot_gradient;?>;
-	-webkit-box-shadow: 0px 0px 14px <?php echo $header_bot_gradient;?>;
-	box-shadow: 0px 0px 14px <?php echo $header_bot_gradient;?>;
+	-moz-box-shadow: 0px 0px 14px <?php echo $drop_colour;?>;
+	-webkit-box-shadow: 0px 0px 14px <?php echo $drop_colour;?>;
+	box-shadow: 0px 0px 14px <?php echo $drop_colour;?>;
 	/* OTHER */
 	padding: 10px;
 	background-color:rgba(0,0,0,0.3);
@@ -204,6 +204,17 @@ div#status_content
 .in_status{
 	margin: 0 38%;
 }
+
+.welcome_steam{
+	display: block;
+	margin-bottom: 5px;
+}
+
+.welcome{
+	display: block;
+	margin-bottom: 5px;
+}
+
 
 .in_title{
 	font-weight: bold;
