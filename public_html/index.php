@@ -3,7 +3,7 @@
 
 <head>
 	<title>Handy_man's MOTD</title>
-	<link href="css/tttstyles.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="css/styles.php" media="screen" rel="stylesheet" type="text/css" />
 	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 </head>
 	<script type="text/javascript">
@@ -23,7 +23,9 @@
 	</script>
 	
 	<?PHP
-	//Get the steamid (really the community id)
+//Include our config, which has all the things that we want/ need in it.
+require("./config.php");	
+//Get the steamid (really the community id)
 $communityid = $_GET["steamid"];
 //See if the second number in the steamid (the auth server) is 0 or 1. Odd is 1, even is 0
 $authserver = bcsub($communityid, '76561197960265728') & 1;
@@ -32,14 +34,14 @@ $authid = (bcsub($communityid, '76561197960265728')-$authserver)/2;
 //Concatenate the STEAM_ prefix and the first number, which is always 0, as well as colons with the other two numbers
 $steamid = "STEAM_0:$authserver:$authid";
 	
-$link = file_get_contents('http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=CA269D3FE157CBEA7386C9830FCC218D&steamids=' . $communityid . '&format=json');
+$link = file_get_contents('http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=' . $steam_api . '&steamids=' . $communityid . '&format=json');
 $myarray = json_decode($link, true);
 		?>
 
 <body>
 <div id="header"></div>
 <div id="site_title">
-			<span>www.SNGaming.org</span>
+			<span><?php echo $title_text;?></span>
 		</div>
 	<div id="page">
 		<div id="dynamic_content">
@@ -53,7 +55,31 @@ $myarray = json_decode($link, true);
 		<span class="in_content_map"></span>
 		</div>
 		<div id="primary_content">
-		Welcome to a test example webpage of a loadingurl, we can insert some rules here or maybe a welcome message.
+		<span class="rules_title">Rules</span>
+		<table>
+		<tr>
+		<td>
+		<ul>
+		<li>
+		No RDMing
+		</li>
+		<li>
+		No Hacking
+		</li> 		
+		</ul>
+		</td>
+		
+		<td>
+		<ul>
+		<li>
+		Testing the longer rules
+		</li>
+		</ul>
+		</td>
+		
+		
+		</tr>
+		</table>
 		</div>
 		
 		<div id="status_content">
@@ -64,7 +90,7 @@ $myarray = json_decode($link, true);
 		<img src='<?php print $myarray['response']['players'][0]['avatarfull']; ?>'/>
 		</div>
 		<div id="secondary_content">
-		<span class="center">
+		<span>
 		Welcome, 
 		<?php print $myarray['response']['players'][0]['personaname']; ?>
 		Perhaps i can insert a better welcome message here by using their name?
