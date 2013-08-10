@@ -8,7 +8,7 @@
 </head>
 	<script type="text/javascript">
 	function GameDetails( servername, serverurl, mapname, maxplayers, steamid, gamemode ) {
-		$("#dont_want").append("" + serverurl + "");
+		$(".NOTINUSE").append("" + serverurl + "");
 		$(".in_content_sn").append("" + servername + "");
 		$(".NOTINUSE").append("" + maxplayers + "");
 		$(".NOTINUSE").append("" + steamid + "");
@@ -50,7 +50,14 @@ $myarray = json_decode($link, true);
 		<span class="in_title">Gamemode:</span>
 		<span class="in_content_gm"></span>
 		<span class="in_title">server ip:</span>
-		<span class="in_content"><?php print $myarray['response']['players'][0]['gameserverip']; ?></span>
+		<span class="in_content"><?php
+			if ($custom_serverip == false){
+		print $myarray['response']['players'][0]['gameserverip'];
+		}
+		else{
+		echo $serverip_text;
+		} 
+		?></span>
 		<span class="in_title">Current map:</span>
 		<span class="in_content_map"></span>
 		</div>
@@ -72,8 +79,13 @@ $myarray = json_decode($link, true);
 		<td>
 		<ul>
 		<li>
-		Testing the longer rules
+		Rules on the right hand side
 		</li>
+		
+		<li>
+		Rules on the right hand side, row 2.
+		</li>
+		
 		</ul>
 		</td>
 		

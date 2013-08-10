@@ -42,7 +42,7 @@ div#header
 {
 	height: 100px;
 	opacity: 0.85;
-	/* IE10 Consumer Preview */ 
+/* IE10 Consumer Preview */ 
 background-image: -ms-linear-gradient(top, <?php echo $header_top_gradient;?> 0%, <?php echo $header_bot_gradient;?> 100%);
 
 /* Mozilla Firefox */ 
@@ -60,6 +60,7 @@ background-image: -webkit-linear-gradient(top, <?php echo $header_top_gradient;?
 /* W3C Markup, IE10 Release Preview */ 
 background-image: linear-gradient(to bottom, <?php echo $header_top_gradient;?> 0%, <?php echo $header_bot_gradient;?> 100%);
 }
+
 div#site_title
 {
 	color: <?php echo $text_colour;?>;
@@ -92,13 +93,6 @@ div#site_title
 	line-height: 22px;
 	margin: 0 auto 0 auto;
 }
-
-.rules_right
-{
-	display: inline-table;
-	margin-left: 20px;
-}
-
 
 div#dynamic_content
 {
