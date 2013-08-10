@@ -10,7 +10,7 @@
 	$steam_api = "CA269D3FE157CBEA7386C9830FCC218D";
 	
 	//Custom serverip, the serverip address comes from Steam data. If a user's profile is set to private/friends only this field will be blank, so set a custom one.
-	$custom_serverip = true;
+	$custom_serverip = false;
 	
 	//This is useful for when you want user's to check for a dns (exmaple: ttt.sngaming.org) for your server, or they have a private profile.
 	$serverip_text = "ttt.sngaming.org";
