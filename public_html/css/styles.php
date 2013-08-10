@@ -15,6 +15,12 @@ body
 	margin: 0 0 0 0;
 }
 
+@font-face
+{
+font-family: titleFont;
+src: url('<?PHP echo $font_src; ?>');
+}
+
 table {
   table-layout: fixed;
   border-collapse: collapse;
@@ -62,8 +68,17 @@ div#site_title
 	background-color: <?php echo $title_main;?>;
 	font-weight: bold;
 	font-size: 42px;
-	line-height: 45px;
+	
 	margin: 0 auto 0 auto;
+	<?PHP
+	if ($custom_font == true){
+	echo "font-family: titleFont;";
+	}
+	else{
+	echo "font-family: 'Arial';";
+	}
+	
+	?>
 }
 
 .rules_title
@@ -203,7 +218,6 @@ div#status_content
 	color: <?php echo $text_colour;?>;
 	text-transform: uppercase;
 	width: 100%;
-	font-family: "fantasy";
 	padding: 5px;
 }
 .in_content{
