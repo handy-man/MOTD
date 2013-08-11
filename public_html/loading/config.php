@@ -36,10 +36,10 @@
 	$com_name = "SkyNetGaming";
 	
 	//Welcome message text. (LEAVE BLANK IF NOT REQUIRED)
-	$welcome_message_1 = "This is the first paragraph that can easily be edited within the config file, you can keep typing for a really long paragraph/sentence or you can just go onto the next one in a new variable.";
+	$welcome_message_1 = "Please take your time to sign up to our forums over at www.sngaming.org. We have lots of different servers and a great community always in need of good regular players such as yourself :)";
 	
 	//Welcome message text for a second paragraph with 5px distance between the first paragraph and the second. (LEAVE BLANK IF NOT REQUIRED)
-	$welcome_message_2 = "This is the next variable, this is the 2nd sentence for the welcome message that you can again easily edit in the config file, if this isn't required you can jsut leave the varable blank.";
+	$welcome_message_2 = "We hope you enjoy your stay here in our server, please do not hesitate to ask an admin about something that you're unsure of or just want to know how to play the game.";
 	
 	//Welcome message text for a third paragraph with 5px distance between the first paragraph and the second. (LEAVE BLANK IF NOT REQUIRED)
 	$welcome_message_3 = "";

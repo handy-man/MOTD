@@ -1,0 +1,59 @@
+Updates:
+
+Release of version 1.0
+
+Description:
+
+Dynamic loading screen that offers easy to customize colour scheme's and data.
+
+Features:
+
+Completely customizable colour set
+
+Easy to configure 
+
+Player information (Steam Name, Avatar)
+
+Joining status
+
+Rules list (can be changed to anything)
+
+Custom font configurable
+
+No images for a faster load time (except the player's avatar)
+
+Examples:
+
+[include image example of perhaps a couple of theme's]
+
+Requirements:
+
+A website host for the loading screen that supports PHP
+
+Steam Web API Key (registration required) http://steamcommunity.com/dev/apikey
+
+Ability to edit variables to change colour scheme etc.
+
+Installation:
+
+1. Upload the 3 files as indicated by the README.txt file to your webhost (after editing)
+2. set sv_loadingurl console varable to your url which is set in your 'server.cfg' found in the config folder.
+3. You're done!
+
+Example of what your loadingurl should look like in your server.cfg file:
+
+sv_loadingurl "http://www.yourwebsite.com/yourdirectory/index.php?steamid=%s"
+
+Testing
+
+You can test the exact look and feel of the loadingurl by going to it in your browser, some details won't be filled in however as Garry's mod does some of the work.
+
+If you edit the config file for changed just re-join your server and the changes should be live in the loadingurl.
+
+Support
+
+If you're having trouble installing or changing some details for the loadingurl i can be contacted via Steam and Email. Please be patient while waiting for a reply/ friend acceptance. 
+
+Refunds:
+
+Unfortunately refunds can not be offered for this profuct at this time.

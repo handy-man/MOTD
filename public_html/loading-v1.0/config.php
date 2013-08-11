@@ -9,10 +9,11 @@
 	//Your steamAPI key, this is required and can be applied for here: http://steamcommunity.com/dev
 	$steam_api = "";
 	
-	//Custom serverip, the serverip address comes from Steam data. If a user's profile is set to private/friends only this field will be blank, so set a custom one.
+	//The Server IP: Field is filled in by the "currently playing" data from steam for the individual player, this won't show up however if their profile is private.
+	//Setting a custom serverIP field allows that field to be static and always filled in with whatever information you want, rather then grabbing it from their steam profile.
 	$custom_serverip = false;
 	
-	//This is useful for when you want user's to check for a dns (exmaple: ttt.sngaming.org) for your server, or they have a private profile.
+	//This is useful for when you want user's to check for a dns (exmaple: game.mywebsite.com) for your server, or they have a private profile.
 	$serverip_text = "";
 	
 	//The largest visible background colour by default: #2C3539
@@ -32,7 +33,7 @@
 	//Dropshadow colour. Default: #1589FF
 	$drop_colour = "#1589FF";
 	
-	//Community name in welcome message
+	//Community name in welcome message the variable reads:  "Welcome, [player name] to the [$con_name] community."
 	$com_name = "";
 	
 	//Welcome message text. (LEAVE BLANK IF NOT REQUIRED)
@@ -41,6 +42,6 @@
 	//Welcome message text for a second paragraph with 5px distance between the first paragraph and the second. (LEAVE BLANK IF NOT REQUIRED)
 	$welcome_message_2 = "This is the next variable, this is the 2nd sentence for the welcome message that you can again easily edit in the config file, if this isn't required you can jsut leave the varable blank.";
 	
-	//Welcome message text for a third paragraph with 5px distance between the first paragraph and the second. (LEAVE BLANK IF NOT REQUIRED)
+	//Welcome message text for a third paragraph with 5px distance between the second paragraph and the third. (LEAVE BLANK IF NOT REQUIRED)
 	$welcome_message_3 = "";
 ?>
