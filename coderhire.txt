@@ -1,26 +1,18 @@
-Updates:
-
-Release of version 1.0
-
 Description:
 
-Dynamic loading screen that offers easy to customize colour scheme's and data.
+Dynamic loading screen that offers easy to customize colour scheme's and data, easy for anyone to use with very little experience required.
 
 Features:
 
-Completely customizable colour set
+Completely customizable CSS colour scheme's
+Easy to configure/ setup.
+Player information (Steam Name, Avatar, currently playing serverip)
+Joining status (Sending client info... etc)
+Rules list (can be changed to anything, minimal html edits)
+Custom font configurable (easy to configure/ add custom fonts)
+No images, to make faster load times. (Steam avatar is the only image)
 
-Easy to configure 
 
-Player information (Steam Name, Avatar)
-
-Joining status
-
-Rules list (can be changed to anything)
-
-Custom font configurable
-
-No images for a faster load time (except the player's avatar)
 
 Examples:
 
