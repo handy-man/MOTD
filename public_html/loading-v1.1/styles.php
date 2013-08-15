@@ -132,7 +132,7 @@ div#primary_content
 	/* OTHER */
 	padding: 10px;
 	background-color:rgba(0,0,0,0.3);
-	width: 63%;
+	width: 66.5%;
 	height: 200px;
 
 }
@@ -153,7 +153,7 @@ div#secondary_content
 	/* OTHER */
 	padding: 10px;
 	background-color:rgba(0,0,0,0.3);
-	width: 72.5%;
+	width: 75.5%;
 	height: 185px;
 }
 
@@ -195,14 +195,13 @@ div#status_content
 	/* OTHER */
 	padding: 10px;
 	background-color:rgba(0,0,0,0.3);
-	width: 95%;
 	height: 10px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
 .in_status{
-	margin: 0 38%;
+	margin: 0 40%;
 }
 
 .welcome_steam{

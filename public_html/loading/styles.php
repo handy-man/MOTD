@@ -201,7 +201,7 @@ div#status_content
 }
 
 .in_status{
-	margin: 0 38%;
+	margin: 0 40%;
 }
 
 .welcome_steam{
