@@ -50,8 +50,8 @@
 	
 	//NEW SINCE 1.13
 	
-	$bgimg_enable = false;
+	$bgimg_enable = true;
 	
 	
-	$bgimg_src = "";
+	$bgimg_src = "http://www.paqoo.com/gudang/3d-abstract-wallpaper-colorful-abstract-wallpapers.jpg";
 ?>

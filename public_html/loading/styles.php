@@ -12,6 +12,11 @@ body
 	color: #333;
 	text-align: left;
 	background-color:<?php echo $body_main;?>;
+	<?PHP
+	if ($bgimg_enabled == true){
+	echo "background-image: url(" . $bgimg_src . ");"
+	}
+	?>
 	margin: 0 0 0 0;
 }
 
