@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 	<head>
-		<title>Dynamic Loadingurl</title>
+		<title>Simple Loadingurl</title>
 		<link href="styles.php" media="screen" rel="stylesheet" type="text/css" />
 		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	</head>
@@ -64,87 +64,47 @@
 						<td>
 							<ul>
 								<li>
-								Example 1
+								No Hacking
 								</li>
 								
 								<li>
-								Example 2
+								No Racism or Hate speech
 								</li>
 
 								<li>
-								Example 3
+								No RDMing
 								</li>
 
 								<li>
-								Example 4
+								No Trolling
 								</li>
 
 								<li>
-								Example 5
-								</li> 
-								
-								<li>
-								Example 6
-								</li>
-								
-								<li>
-								Example 7
-								</li>
-
-								<li>
-								Example 8
-								</li>
-
-								<li>
-								Example 9
-								</li>
-
-								<li>
-								Example 10
+								Listen to the Admins
 								</li> 
 							</ul>
 						</td>
 						<td>
 							<ul>
 								<li>
-								Example 11
+								No Mic/Chat spamming
 								</li>
 								
 								<li>
-								Example 12
+								No advertising
 								</li>
 
 								<li>
-								Example 13
+								No NSFW Sprays
 								</li>
 
 								<li>
-								Example 14
+								Read the MOTD
 								</li>
 
 								<li>
-								Example 15
+								Have Fun!
 								</li> 
-								
-								<li>
-								Example 16
-								</li>
-								
-								<li>
-								Example 17
-								</li>
-
-								<li>
-								Example 18
-								</li>
-
-								<li>
-								Example 19
-								</li>
-
-								<li>
-								Example 20
-								</li>
 							</ul>
 						</td>
 					</tr>
