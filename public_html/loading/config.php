@@ -47,4 +47,11 @@
 	//NEW SINCE 1.1
 	//This is the true/false boolean for if you want the information such as serverip, gamemode etc to line up with the results as seen here: http://www.thehiddennation.com/coderhire-example4.png set to true, else false.
 	$lined_up = true
+	
+	//NEW SINCE 1.13
+	
+	$bgimg_enable = false;
+	
+	
+	$bgimg_src = "";
 ?>
