@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 	<head>
-		<title>Simple Loadingurl</title>
+		<title>Dynamic Loadingurl</title>
 		<link href="styles.php" media="screen" rel="stylesheet" type="text/css" />
 		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	</head>
