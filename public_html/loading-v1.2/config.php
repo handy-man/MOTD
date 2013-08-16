@@ -1,19 +1,19 @@
 <?php
 	//The title, usually your web address but can just be something like "The fancy pants community"
-	$title_text = "www.sngaming.org";
+	$title_text = "";
 	//Use custom font type, lots of different custom fonts can be found here: http://www.dafont.com/
 	$custom_font = false;
 	//Custom font source (if we're using a custom font type, we need the source of that fonts location) example : http://www.yourwebsitehere.com/loading/myfont.ttf
 	$font_src = "";
 	
 	//Your steamAPI key, this is required and can be applied for here: http://steamcommunity.com/dev
-	$steam_api = "CA269D3FE157CBEA7386C9830FCC218D";
+	$steam_api = "";
 	
 	//Custom serverip, the serverip address comes from Steam data. If a user's profile is set to private/friends only this field will be blank, so set a custom one.
 	$custom_serverip = false;
 	
 	//This is useful for when you want user's to check for a dns (exmaple: ttt.sngaming.org) for your server, or they have a private profile.
-	$serverip_text = "ttt.sngaming.org";
+	$serverip_text = "";
 	
 	//The largest visible background colour by default: #2C3539 
 	//Will not function/ be used if $bgimg_enabled = true, if your background isn't this colour set $bgimg_enabled to false. 
@@ -36,13 +36,13 @@
 	$drop_colour = "#1589FF";
 	
 	//Community name in welcome message
-	$com_name = "SkyNetGaming";
+	$com_name = "";
 	
 	//Welcome message text. (LEAVE BLANK IF NOT REQUIRED)
-	$welcome_message_1 = "Please take your time to sign up to our forums over at www.sngaming.org. We have lots of different servers and a great community always in need of good regular players such as yourself :)";
+	$welcome_message_1 = "";
 	
 	//Welcome message text for a second paragraph with 5px distance between the first paragraph and the second. (LEAVE BLANK IF NOT REQUIRED)
-	$welcome_message_2 = "We hope you enjoy your stay here in our server, please do not hesitate to ask an admin about something that you're unsure of or just want to know how to play the game.";
+	$welcome_message_2 = "";
 	
 	//Welcome message text for a third paragraph with 5px distance between the first paragraph and the second. (LEAVE BLANK IF NOT REQUIRED)
 	$welcome_message_3 = "";
@@ -53,10 +53,11 @@
 	
 	//NEW SINCE 1.2
 	//This enables a background image to be used over the normal plain background colour
-	$bgimg_enabled = true;
+	$bgimg_enabled = false;
 	
-	//The background of the entire loadingurl can be generated here, please insert an absolute reference link to the image, preferably this would be on your website host. 
-	$bgimg_src = "http://www.hdwallpapers3d.com/wp-content/uploads/2013/05/3d-abstract-hd-wallpaper.jpg";
+	//The background of the entire loadingurl can be generated here, please insert an absolute reference link to the image, preferably this would be on your website host.
+	//Example image used in coderhire-example5.png: http://www.hdwallpapers3d.com/wp-content/uploads/2013/05/3d-abstract-hd-wallpaper.jpg NOTE: I do not own the copyright to this image.
+	$bgimg_src = "";
 	
 	//All content is split up into box's, this is the opacity of that box (ability to see through the box) allowing you to see background colour's/ images.
 	$opaque_enabled = true;
