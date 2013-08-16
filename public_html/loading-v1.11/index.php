@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 	<head>
-		<title>Simple Loadingurl</title>
+		<title>Dynamic Loadingurl</title>
 		<link href="styles.php" media="screen" rel="stylesheet" type="text/css" />
 		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	</head>
@@ -14,6 +14,9 @@
 			$(".NOTINUSE").append("" + steamid + "");
 			$(".in_content_gm").append("" + gamemode + "");
 			$(".in_content_map").append("" + mapname + "");
+		}
+		function SetStatusChanged( status ) {
+			$(".in_status").append("" + status + "");
 		}
 	</script>
 <?PHP
@@ -60,59 +63,94 @@
 						<td>
 							<ul>
 								<li>
-								No Hacking
+								Example 1
 								</li>
 								
 								<li>
-								No Racism or Hate speech
+								Example 2
 								</li>
 
 								<li>
-								No RDMing
+								Example 3
 								</li>
 
 								<li>
-								No Trolling
+								Example 4
 								</li>
 
 								<li>
-								Listen to the Admins
+								Example 5
+								</li> 
+								
+								<li>
+								Example 6
+								</li>
+								
+								<li>
+								Example 7
+								</li>
+
+								<li>
+								Example 8
+								</li>
+
+								<li>
+								Example 9
+								</li>
+
+								<li>
+								Example 10
 								</li> 
 							</ul>
 						</td>
 						<td>
 							<ul>
 								<li>
-								No Mic/Chat spamming
+								Example 11
 								</li>
 								
 								<li>
-								No advertising
+								Example 12
 								</li>
 
 								<li>
-								No NSFW Sprays
+								Example 13
 								</li>
 
 								<li>
-								Read the MOTD
+								Example 14
 								</li>
 
 								<li>
-								Have Fun!
+								Example 15
 								</li> 
+								
+								<li>
+								Example 16
+								</li>
+								
+								<li>
+								Example 17
+								</li>
+
+								<li>
+								Example 18
+								</li>
+
+								<li>
+								Example 19
+								</li>
+
+								<li>
+								Example 20
+								</li>
 							</ul>
 						</td>
 					</tr>
 				</table>
 		</div>
 			<div id="status_content">
-					<span class="in_status"><script type="text/javascript">
-										function SetStatusChanged( status ) {
-										document.write(status);
-																			}
-										</script>
-				</span>
+				<span class="in_status"></span>
 			</div>
 			<div id="avatar_content">
 				<img src='<?php print $myarray['response']['players'][0]['avatarfull']; ?>'/>

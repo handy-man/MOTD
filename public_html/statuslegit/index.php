@@ -15,9 +15,6 @@
 			$(".in_content_gm").append("" + gamemode + "");
 			$(".in_content_map").append("" + mapname + "");
 		}
-		function SetStatusChanged( status ) {
-			$(".in_status").append("" + status + "");
-		}
 	</script>
 <?PHP
 	//Include our config file, we need this to get certain variables that we changed.
@@ -147,7 +144,13 @@
 				</tbody></table>
 		</div>
 			<div id="status_content">
-				<span class="in_status"></span>
+				<span class="in_status"><script type="text/javascript">
+										function SetStatusChanged( status ) {
+										$(".in_status").empty();
+										$(".in_status").append("" + status + " ");
+																			}
+										</script>
+				</span>
 			</div>
 			<div id="avatar_content">
 				<img src='<?php print $myarray['response']['players'][0]['avatarfull']; ?>'/>
