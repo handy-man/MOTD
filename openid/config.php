@@ -1,0 +1,6 @@
+<?PHP
+	//Config.php
+	
+	$api = "CA269D3FE157CBEA7386C9830FCC218D";
+
+?>
